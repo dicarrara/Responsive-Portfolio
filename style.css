@@ -255,12 +255,17 @@ input[type=submit] {
     }
 
     .main-section {
-        max-width: 420px;
+        max-width: 640px;
     }
 
     .work {
-        width: 100%;
+        width: 45%;
 
+    }
+
+    .sidebar {
+        max-width: 100%;
+        text-align: center;
     }
 }
 
@@ -270,7 +275,14 @@ input[type=submit] {
         max-width: 100%;
                 
     }
+
+    .work {
+        width: 45%
+    }
     
+    .sidebar {
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 640px) {
@@ -310,5 +322,4 @@ input[type=submit] {
     }
 
      
-
 }
