@@ -249,6 +249,7 @@ input[type=submit] {
         max-width: 768px;
         padding: 0 20px;
     }
+    
     #main-contaier {
         max-width: 768px;
         padding-top: 150px;
@@ -267,6 +268,7 @@ input[type=submit] {
         max-width: 100%;
         text-align: center;
     }
+
 }
 
 
@@ -286,31 +288,25 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 640px) {
+
     #head {
         position: static;
-        margin-bottom: 0;
-    }
-
-    #logo {
-       width: 100%;
-       text-align: center
     }
     
-    nav {
-        width:100%;
+    #logo, nav {
+        width: 100%;
         text-align: center
     }
 
-    .auth-image {
+    
+    .auth-image, .work {
         width: 100%;
-        margin-bottom: 20px;
+       
     }
 
-
-    #main-container {
+     #main-container {
         margin-top: 0;
         padding-top: 10px;
-
     }
 
     p {
@@ -319,7 +315,5 @@ input[type=submit] {
 
     .sidebar {
         text-align: center
+    
     }
-
-     
-}
